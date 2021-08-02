@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Overpass', sans-serif; */
+}
+
+
+
+.banner {
+    padding-top: 2.5rem;
+    width: 100%;
+    min-height: 39rem;
+    background-image: url(../images/bg-pattern-intro.svg);
+    z-index: 1;
+    background-position: 22%;
+    background-repeat: space;
+    background-size: auto;
+}
+
+header {
+    min-height: 40rem;
+    background: #FF5F60;
+    font-family: var(--ubuntu-font-family);
+    font-weight: 500;
+    border-bottom-left-radius: 5rem;
+    position: relative;
+}
+
+.nav__items {
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    align-items: center;
+}
+
+.nav__items a {
+    margin: 0 40px;
+}
+
+.nav__register a {
+    margin: 0 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.nav__register .btn__sign-up {
+    background-color: white;
+    border-radius: 20px;
+    padding: 11px 45px;
+    color: hsl(353, 100%, 62%);
+}
+
+.banner__title {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.btn__free {
+    border-radius: 25px;
+    padding: 15px 30px;
+    color: hsl(353, 100%, 62%);
+    background-color: white;
+    border-style: none;
+    font-weight: 700;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.btn__learn {
+    border-radius: 25px;
+    padding: 15px 30px;
+    color: white;    
+    background-color: hsl(353deg 100% 62% / 40%);
+    border-style: none;
+    font-weight: 700;
+    border: 2px solid white;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.text__grow {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.design__future {
+    height: 500px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.design__future h3  {
+    color: hsl(207, 13%, 34%);
+}
+
+.design__future p  {
+    color: hsl(207, 13%, 34%);
+    margin-top: 15px;
+}
+
+.content {
+    margin: 60px 0;
+}
+
+.design__future-title {
+    color: hsl(207, 13%, 34%);
+}
