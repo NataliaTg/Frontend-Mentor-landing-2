@@ -3,14 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: 'Overpass', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
 
+:root {
+    --very-dark-gray-blue: hsl(237, 17%, 21%);
+    --very-dark-desaturated-blue: hsl(237, 23%, 32%);
+    --very-light-red: hsl(13, 100%, 72%);
+    --light-red: hsl(353, 100%, 62%);
+}
 
 .banner {
     padding-top: 2.5rem;
     width: 100%;
-    min-height: 39rem;
+    min-height: 40rem;
     background-image: url(../images/bg-pattern-intro.svg);
     z-index: 1;
     background-position: 22%;
@@ -20,7 +28,7 @@
 
 header {
     min-height: 40rem;
-    background: #FF5F60;
+    background: linear-gradient(var(--very-light-red), var(--light-red));
     font-family: var(--ubuntu-font-family);
     font-weight: 500;
     border-bottom-left-radius: 5rem;
@@ -89,11 +97,16 @@ h1 {
 }
 
 .design__future {
-    height: 500px;
+    height: auto;
     background-color: #FFFFFF;
+    background-color: #efeff059;
     display: flex;
     align-items: center;
-    margin: 120px 0;
+    padding: 120px 0;
+    /* margin: 120px 0; */
+    /* background-image: url(../images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: right; */
 }
 
 .design__future h3  {
@@ -111,4 +124,40 @@ h1 {
 
 .design__future-title {
     color: hsl(207, 13%, 34%);
+    /* margin: 100px 0; */
 }
+
+.img-editor {
+    /* transform: translateX(51%); */
+    width: 600px;
+    right: 0;
+}
+
+.state {
+    background: linear-gradient(var(--very-dark-gray-blue), var(--very-dark-desaturated-blue));
+    height: 440px;
+    border-radius: 0 80px 0 80px;
+}
+
+.state__bg {
+    margin-top: -51px;
+}
+
+.state__img {
+    background-image: url(../images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    background-position: -11rem -35rem;
+}
+
+.state h2 {
+    color: white;
+}
+
+.state p {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
