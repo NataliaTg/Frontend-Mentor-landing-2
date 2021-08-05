@@ -166,7 +166,15 @@ h1 {
     /* overflow: hidden;
     width: 100%;
     height: 100%; */
-    transform: translateX(25%);
+    transform: translateX(17%);
+    right: 0;
+}
+
+.hidden-2 {
+    /* overflow: hidden;
+    width: 100%;
+    height: 100%; */
+    transform: translateX(-46%);
     right: 0;
 }
 
@@ -178,10 +186,24 @@ h1 {
     width: 488px;
 }
 
+footer {
+    background-color: hsl(240, 10%, 16%);
+    height: 325px;
+    border-top-right-radius: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
 
+footer ul li {
+    list-style: none;
+    text-align: right;
+}
 
-
-
+.footer__div {
+    /* margin: 77px 20px;
+    margin-top: 90px; */
+}
 
 
 
@@ -215,8 +237,13 @@ h1 {
 }
 
 .img-editor {
-    width: 100%;
+    width: 126%;
     height: 100%;
-    transform: translateX(40%);
+    transform: translateX(21%);
     /* transform: translateY(-16%); */
+}
+
+.img-editor-2 {
+    width: 126%;
+    height: 100%;
 }
